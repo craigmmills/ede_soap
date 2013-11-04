@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="urn:GRID_GEOData_Service">
+<SOAP-ENV:Body>
+<tns:RetrieveCountryValues xmlns:tns="urn:GRID_GEOData_Service">
+<DataQuery xsi:type="tns:DataRequest">
+<iso_code xsi:type="xsd:string">TZ</iso_code>
+<date_period xsi:type="xsd:string">1995:2013</date_period>
+<language xsi:type="xsd:string">en</language>
+<recent_year xsi:nil="true" xsi:type="xsd:string"/>
+<limit_data xsi:type="xsd:integer">10</limit_data>
+<key xsi:type="xsd:string">
+</key>
+</DataQuery>
+</tns:RetrieveCountryValues>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
